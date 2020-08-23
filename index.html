@@ -6,30 +6,73 @@
     
     <title>Ziyong HE Portfolio</title>
     
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
 </head>
 <body>
+    <!-- Nav bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Ziyong HE</a>
+      <a class="navbar-brand" href="index.html">Ziyong HE</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
+          <!-- About link with current active feature -->
           <li class="nav-item active">
-            <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+          </li>
+          <!-- Contact link -->
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</span></a>
+          </li>
+          <!-- Portfolio link -->
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
         </ul>
       </div>
     </nav>
+
+    <!-- jumbotron image in home page -->
+    <div class="jumbotron p-0">
+      <img src="asset/bioimage.jpeg" class="img-fluid" height:auto alt="bioimage">
+    </div>
+
+    <!-- Text info of About Me -->
+    <article class="container">
+        <h1 class="my-5">
+          Ziyong He
+        </h1>
+  
+        <h4 class="my-5">I am an Aerospace Engineering Graduate from Carleton University. I am a snowboarder, barber, entrepreneur, physics enthusiast. I like playing guitar and traveling to somewhere warmer than canada~</h4>        
+    </article>
+
+    <div class="container" style="background-color: #bdc3c7;">
+      <footer>
+        <div class="container p-3">
+          <div class="row">
+            <div class="col-6">
+              <strong>Github:</strong>
+            </div>
+            <div class="col-6">
+              <strong>Linkedin:</strong>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <a href="https://github.com/ZiyongHe">github.com/ZiyongHe</a>
+            </div>
+            <div class="col-6">
+              <a href="http://www.linkedin.com/in/ziyonghe">www.linkedin.com/in/ziyonghe</a>
+            </div>
+          </div>
+        </div>
+  
+      </footer>
+    </div>
+
     
 </body>
 </html>
