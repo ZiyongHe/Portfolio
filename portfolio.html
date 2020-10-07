@@ -35,26 +35,64 @@
     
     <!-- images container -->
     <div class="container my-5 ">
-        <h1 class="mx-3">
+        <h1 class="mx-3 mb-3">
             Portfolio
         </h1>
 
         <div class="row">
-
-            <!-- importing images from asset folder -->
-            <img src="asset/eat-local.png" class="rounded float-left p-5" style="width: 500px" alt="eat-local">
-
-            <img src="asset/day-planner.png" class="rounded float-left p-5" style="width: 500px" alt="day-planner">
-
-            <img src="asset/js-code-quiz.png" class="rounded float-left p-5" style="width: 500px" alt="js-code-quiz">
+            <div class="col px-3">
+              <img src="asset/eat-local.png" class="rounded float-left shadow m-3" style="width: 500px" alt="eat-local" id="EatLocal">
+              <div class="m-5">
+                <h3>Eat Local</h3>
+                <h6>Browse local restaurants</h6>
+                <a href="https://github.com/ZiyongHe/EatLocal">View Github Repo</a>
+              </div>
+            </div>
             
-            <img src="asset/password-generator.png" class="rounded float-left p-5" style="width: 500px" alt="password-generator">
 
+            <div class="col px-3">
+              <img src="asset/day-planner.png" class="rounded float-left shadow m-3" style="width: 500px" alt="day-planner" id="day-planner">
+              <div class="m-5">
+                <h3>Day Planner</h3>
+                <h6>A day schedule planner</h6>
+                <a href="https://github.com/ZiyongHe/day-planner">View Github Repo</a>
+              </div>
+
+            </div>
+        </div>
+        
+        <div class="row">      
+            <div class="col px-3">
+              <img src="asset/js-code-quiz.png" class="rounded float-left shadow m-3" style="width: 500px" alt="js-code-quiz" id="js-code-quiz">
+              <div class="m-5">
+                <h3>Javascript Code Quiz</h3>
+                <h6>A timed code quiz on Javascript</h6>
+                <a href="https://github.com/ZiyongHe/javascript-code-quiz">View Github Repo</a>
+              </div>
+            </div>
+
+            <div class="col px-3">
+              <img src="asset/password-generator.png" class="rounded float-left shadow m-3" style="width: 500px" alt="password-generator" id="password-generator">
+              <div class="m-5">
+                <h3>Password Generator</h3>
+                <h6>A random password generator</h6>
+                <a href="https://github.com/ZiyongHe/random-password-generator">View Github Repo</a>
+              </div>
+            </div>  
         </div>
 
 
 
     </div>
+    <script>
+      document.getElementById('EatLocal').addEventListener('click',handleClick)
+      document.getElementById('day-planner').addEventListener('click',handleClick)
+      document.getElementById('js-code-quiz').addEventListener('click',handleClick)
+      document.getElementById('password-generator').addEventListener('click',handleClick)
 
+      function handleClick(event){
+        window.open(`https://ziyonghe.github.io/${this.id}`)
+      }
+    </script>
 </body>
 </html>
