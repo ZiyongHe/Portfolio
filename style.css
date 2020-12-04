@@ -1,6 +1,8 @@
 body {
   background: linear-gradient(to right, rgb(191, 244, 253), rgb(215, 217, 255));
   color: rgba(75, 75, 75, 0.8);
+  width: 100%;
+  overflow-x: hidden;
 }
 img {
   border-radius: 50%;
