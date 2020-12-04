@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(to right, rgb(191, 244, 253), rgb(215, 217, 255));
+  /* font-family: sans-serif; */
+  color: rgba(75, 75, 75, 0.8);
+}
+img {
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+#index {
+  margin-top: 40px;
+  height: 20px;
+}
+
+#about {
+  height: 80vh;
+}
+#about container {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* #portfolio {
+  height: 150vh;
+} */
+
+#contact {
+  margin-top: 30vh;
+}
