@@ -1,8 +1,12 @@
-# module2
-This is a Responsive Portfolio with CSS and Bootstrap cooresponding to module 2 homework of Ziyong's Fullstack learning process
+# Portfolio
 
-The objective of this project is to create a personal portfolio as a good showcase for future employer-competitive programming ability drmostration. 
+![Portfolio website preview](./asset/preview.png)
+This is repository of my portfolio which showcases my full stack skills. This website design is mobile-first responsive design.
 
-It contains three html files and a folder of images.
+:link: [Portfolio Website](https://ziyonghe.github.io/Portfolio/index.html)
 
-This responsive portfolio applied Bootstrap for styling which responds to varied devices accordingly. 
+## Liberary used
+
+- [Bootstrap 4.5](https://getbootstrap.com/)
+- [Font Awesome 4.7](https://fontawesome.com/v4.7.0/)
+- [Animate On Scroll](https://michalsnik.github.io/aos/)
