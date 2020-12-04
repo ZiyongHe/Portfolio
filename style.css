@@ -1,6 +1,5 @@
 body {
   background: linear-gradient(to right, rgb(191, 244, 253), rgb(215, 217, 255));
-  /* font-family: sans-serif; */
   color: rgba(75, 75, 75, 0.8);
 }
 img {
@@ -22,7 +21,7 @@ img {
 }
 
 #about {
-  height: 80vh;
+  height: 75vh;
 }
 #about container {
   position: absolute;
@@ -30,10 +29,11 @@ img {
   transform: translate(-50%, -50%);
 }
 
-/* #portfolio {
-  height: 150vh;
-} */
-
 #contact {
   margin-top: 30vh;
+}
+
+#scrolldownindicator {
+  margin-left: 50%;
+  margin-right: 50%;
 }

@@ -10,3 +10,4 @@ This is repository of my portfolio which showcases my full stack skills. This we
 - [Bootstrap 4.5](https://getbootstrap.com/)
 - [Font Awesome 4.7](https://fontawesome.com/v4.7.0/)
 - [Animate On Scroll](https://michalsnik.github.io/aos/)
+- [AnimeJS 3.2](https://animejs.com/)

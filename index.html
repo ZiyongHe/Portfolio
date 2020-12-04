@@ -27,9 +27,10 @@
 
     <!-- Custom CSS -->
     <link href="style.css" type="text/css" rel="stylesheet" />
+
 </head>
 
-<body data-spy="scroll" data-target="#navbar" data-offset="500">
+<body data-spy="scroll" data-target="#navbar" data-offset="750">
   <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Ziyong He</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,7 +82,10 @@
         </div>
       </div>
     </div>
-    <span data-gtm-event="drawer-interaction" aria-label="Move down / next" class="tds-icon--bounce tds-animate--bounce tds-icon tds-icon-arrow-down hero-arrow_down  "></span>
+
+    <!-- Scroll Down Indicator -->
+    <i id="scrolldownindicator" class="fas fa-chevron-down fa-4x" data-aos="fade-down"></i>
+
 
     <!-- Portfolio -->
       <!-- images container -->
@@ -92,7 +96,7 @@
 
       <div class="row" data-aos="fade-right">
           <div class="col-lg-4 px-3">
-            <img src="asset/oop-general-hospital.png" class="rounded shadow m-3" style="width: 300px; height: 300px" alt="js-code-quiz" id="js-code-quiz">
+            <img src="asset/oop-general-hospital.png" class="rounded shadow m-3" style="width: 300px; height: 300px" alt="oop-general-hospital" id="oop-general-hospital">
             <div class="m-5">
               <h3>OOP General Hospital</h3>
               <h6>A full stack database project simulates basic patient flow in hospital environment</h6>
@@ -173,18 +177,34 @@
   <script>
     document.getElementById('EatLocal').addEventListener('click',handleClick)
     document.getElementById('day-planner').addEventListener('click',handleClick)
-    document.getElementById('js-code-quiz').addEventListener('click',handleClick)
-    document.getElementById('password-generator').addEventListener('click',handleClick)
+    document.getElementById('oop-general-hospital').addEventListener('click',handleClick)
 
     function handleClick(event){
       window.open(`https://ziyonghe.github.io/${this.id}`)
     }
   </script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
   <script>
     AOS.init({
       duration: 800,
     });
+
+    anime({
+      targets: '#scrolldownindicator',
+      translateY: 100,
+      delay: 2000,
+      loop:true,
+      easing: 'easeInOutSine'
+    })
+
+    document.addEventListener('scroll', function(e) {
+     if(window.scrollY<100){
+        document.getElementById('scrolldownindicator').style.opacity = 1
+     } else {
+      document.getElementById('scrolldownindicator').style.opacity = 0
+     }
+    })
   </script>
   </body>
 </html>
