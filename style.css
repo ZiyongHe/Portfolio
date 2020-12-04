@@ -1,13 +1,22 @@
 body {
-  background: linear-gradient(to right, rgb(191, 244, 253), rgb(215, 217, 255));
+  background: linear-gradient(90deg, rgb(191, 244, 253), rgb(215, 217, 255));
   color: rgba(75, 75, 75, 0.8);
   width: 100%;
   overflow-x: hidden;
+  margin-left: 0;
+  margin-right: 0;
 }
+
 img {
   border-radius: 50%;
   width: 20%;
   height: 20%;
+}
+nav {
+  overflow-x: hidden;
+}
+#index {
+  overflow-x: hidden;
 }
 
 #navbar {
@@ -48,4 +57,11 @@ img {
   font-weight: bold;
   border-color: rgb(33, 67, 255);
   transform: translate(0, -5px);
+}
+
+@media (max-width: 575.98px) {
+  #bioimage {
+    widows: 100px;
+    height: 100px;
+  }
 }
