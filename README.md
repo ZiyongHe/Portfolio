@@ -1,9 +1,10 @@
 # Portfolio
 
-![Portfolio website preview](./asset/portfolio-preview.png)
-This is repository of my portfolio which showcases my full stack skills. This website design is mobile-first responsive design.
+This portfolio introduces myself, containing my resume, social media links, applied projects that I have done. This web application is mobile-first responsive design.
 
 :link: [Portfolio Website](https://ziyonghe.github.io/Portfolio/index.html)
+
+![Portfolio website preview](./asset/portfolio-preview.png)
 
 ## Liberary used
 

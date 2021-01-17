@@ -6,6 +6,9 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
+#name {
+  color: rgb(195, 153, 0);
+}
 
 img {
   border-radius: 50%;
