@@ -6,7 +6,7 @@ This portfolio introduces myself, containing my resume, social media links, appl
 
 ![Portfolio website preview](./asset/portfolio-preview.png)
 
-## Liberary used
+## Built with
 
 - [Bootstrap 4.5](https://getbootstrap.com/)
 - [Font Awesome 4.7](https://fontawesome.com/v4.7.0/)
