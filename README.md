@@ -13,7 +13,3 @@ This portfolio introduces myself, containing my resume, social media links, appl
 - [Animate On Scroll](https://michalsnik.github.io/aos/)
 - [anime.js 3.2](https://animejs.com/)
 
-## Other Version of Portfolio with Animation On Scroll (AOS) without React 
-
-:link: [Link to view](https://ziyonghe.github.io/Portfolio/index.html)
-
