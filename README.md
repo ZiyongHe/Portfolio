@@ -12,3 +12,8 @@ This portfolio introduces myself, containing my resume, social media links, appl
 - [Font Awesome 4.7](https://fontawesome.com/v4.7.0/)
 - [Animate On Scroll](https://michalsnik.github.io/aos/)
 - [anime.js 3.2](https://animejs.com/)
+
+## Other Version of Portfolio with Animation On Scroll (AOS) without React 
+
+:link: [Link to view](https://ziyonghe.github.io/Portfolio/index.html)
+
